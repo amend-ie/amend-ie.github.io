@@ -3,8 +3,6 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-# About Amend
-
 Welcome to Amend, where the future of bespoke IT solutions is being redefined. Founded in 2023 by Kenth Fagerlund, a visionary in the realm of technology, Amend has quickly established itself as a frontrunner in the IT industry, with a specialized focus on Artificial Intelligence (AI) and developer pipelines. Situated in the vibrant tech hub of Ireland, we are at the forefront of innovation, leveraging the rich tech landscape and dynamic community to fuel our growth and expertise.
 
 ## Our Mission
