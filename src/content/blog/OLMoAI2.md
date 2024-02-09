@@ -9,6 +9,7 @@ draft: false
 tags:
   - papers
   - research
+  - open-source
 description: OLMo 7B, a groundbreaking open-source language model, shatters the black box of AI, empowering researchers and developers to delve into its inner workings for faster progress, transparency, and responsible innovation. Join the open-source movement and be a part of shaping the future of language models!
 ---
 
