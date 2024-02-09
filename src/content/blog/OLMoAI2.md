@@ -3,7 +3,7 @@ author: Kenth Fagerlund
 pubDatetime: 2022-09-23T15:22:00Z
 modDatetime: 2023-12-21T09:12:47.400Z
 title: Unveiling the Secrets of Language - Open AI Model Democratizes Understanding of Powerful Technology
-slug: revolutionizing-code-with-deepseek-coder
+slug: open-ai-model-olmo-7b-democratizes-understanding
 featured: true
 draft: false
 tags:
