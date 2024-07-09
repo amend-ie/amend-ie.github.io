@@ -54,13 +54,13 @@ nav a:hover {
 }
 
 #contact a {
-    color: #00FF00; /* Change to your desired color */
-    text-decoration: none; /* Optional: Remove underline */
+	color: #00ff00; /* Change to your desired color */
+	text-decoration: none; /* Optional: Remove underline */
 }
 
 #contact a:hover {
-    color: #5aac5a; /* Change to your desired hover color */
-    text-decoration: underline; /* Optional: Add underline on hover */
+	color: #5aac5a; /* Change to your desired hover color */
+	text-decoration: underline; /* Optional: Add underline on hover */
 }
 
 .services {
@@ -83,6 +83,11 @@ nav a:hover {
 	background-color: #1e1e1e; /* Add a subtle background color for better visual separation */
 	box-sizing: border-box; /* Ensures padding and border are included in the width */
 	transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.subheader {
+	font-size: 28px;
+	margin-bottom: 10px;
 }
 
 footer {
