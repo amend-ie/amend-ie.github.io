@@ -3,19 +3,37 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Amend - IT Management &amp; Consulting Services</title>
+		<title>Amend - IT Management & Consulting Services</title>
 		<meta
-			name="Amend consulting"
-			content="Amend offers 20+ years of experience in IT management, consulting, and project management. Specializing in Agile transformation and advisory services."
+			name="description"
+			content="Amend offers 20+ years of experience in IT management, consulting, and project management. Specializing in Agile transformation and advisory services with straightforward and effective solutions."
 		/>
-		<meta name="keywords" content="IT management, IT consulting, Agile transformation, project management, advisory services" />
+		<meta name="keywords" content="IT management, IT consulting, Agile transformation, project management, advisory services, IT solutions" />
+		<meta name="author" content="Amend Consulting" />
+		<meta name="robots" content="index, follow" />
+		<meta property="og:title" content="Amend - IT Management & Consulting Services" />
+		<meta
+			property="og:description"
+			content="Amend offers 20+ years of experience in IT management, consulting, and project management. Specializing in Agile transformation and advisory services with straightforward and effective solutions."
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://amend.ie" />
+		<meta property="og:image" content="https://amend.ie/amend-logo.svg" />
+		<meta property="og:site_name" content="Amend Consulting" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Amend - IT Management & Consulting Services" />
+		<meta
+			name="twitter:description"
+			content="Amend offers 20+ years of experience in IT management, consulting, and project management. Specializing in Agile transformation and advisory services with straightforward and effective solutions."
+		/>
+		<meta name="twitter:image" content="https://amend.ie/amend-logo.svg" />
 		<!-- Add Google Fonts -->
 		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
 		<header>
-			<img src="amend-logo.svg" alt="Amend logo" />
+			<img src="amend-logo.svg" alt="Amend logo - IT Management & Consulting Services" />
 			<p>IT Management &amp; Consulting Services</p>
 		</header>
 
@@ -57,7 +75,7 @@
 			<section id="pricing">
 				<h2>Pricing</h2>
 				<div class="pricing">
-					<p>Our consulting services are priced at <strong>895 EUR + VAT </strong>/ per day with a minimal charge is for one day.</p>
+					<p>Our consulting services are priced at <strong>895 EUR + VAT</strong> per day with a minimal charge of one day.</p>
 				</div>
 			</section>
 
@@ -65,12 +83,12 @@
 				<h2>Contact Us</h2>
 				<p>Ready to transform your IT landscape? Get in touch with Amend today!</p>
 				<p>Email: <a href="mailto:hello@amend.ie">hello@amend.ie</a></p>
-				<p>Phone: <a href="tel:+353 083 307 1557">+353 083 307 1557</a></p>
+				<p>Phone: <a href="tel:+3530833071557">+353 083 307 1557</a></p>
 			</section>
 		</main>
 
 		<footer>
-			<p>&copy; 2024 Amend (Amend.ei). All rights reserved.</p>
+			<p>&copy; 2024 Amend (Amend.ie). All rights reserved.</p>
 		</footer>
 
 		<script>
@@ -81,6 +99,22 @@
 				lastUpdated.textContent = "Last updated: " + new Date().toLocaleDateString()
 				footer.appendChild(lastUpdated)
 			})
+		</script>
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Organization",
+				"name": "Amend Consulting",
+				"url": "https://amend.ie",
+				"logo": "https://amend.ie/amend-logo.svg",
+				"contactPoint": {
+					"@type": "ContactPoint",
+					"telephone": "+3530833071557",
+					"contactType": "Customer Service",
+					"email": "hello@amend.ie"
+				},
+				"sameAs": ["https://www.linkedin.com/company/amend-consulting", "https://twitter.com/amend-consulting"]
+			}
 		</script>
 	</body>
 </html>
