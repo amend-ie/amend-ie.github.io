@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Amend - IT Management & Consulting Services</title>
+		<meta
+			name="description"
+			content="Amend offers 20+ years of experience in IT management, consulting, and project management. Specializing in Agile transformation and advisory services."
+		/>
+		<meta name="keywords" content="IT management, IT consulting, Agile transformation, project management, advisory services" />
+		<style>
+			body {
+				font-family: "Courier New", Courier, monospace;
+				background-color: #fffaf0;
+				color: #000080;
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 20px;
+				line-height: 1.6;
+			}
+			header {
+				text-align: center;
+				border-bottom: 2px solid #000080;
+				padding-bottom: 20px;
+				margin-bottom: 20px;
+			}
+			h1 {
+				font-size: 36px;
+				color: #800000;
+			}
+			h2 {
+				font-size: 24px;
+				color: #008080;
+			}
+			.logo {
+				max-width: 200px;
+				height: auto;
+			}
+			nav {
+				margin: 20px 0;
+			}
+			nav a {
+				color: #0000ff;
+				text-decoration: none;
+				margin: 0 10px;
+			}
+			nav a:hover {
+				text-decoration: underline;
+			}
+			.services {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+			.service {
+				width: 48%;
+				margin-bottom: 20px;
+				border: 1px solid #000080;
+				padding: 10px;
+			}
+			footer {
+				text-align: center;
+				margin-top: 40px;
+				border-top: 2px solid #000080;
+				padding-top: 20px;
+			}
+			@media (max-width: 600px) {
+				.service {
+					width: 100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="/api/placeholder/200/100" alt="Amend Logo" class="logo" />
+			<h1>Amend</h1>
+			<p>IT Management & Consulting Services</p>
+		</header>
+
+		<nav>
+			<a href="#about">About</a>
+			<a href="#services">Services</a>
+			<a href="#contact">Contact</a>
+		</nav>
+
+		<main>
+			<section id="about">
+				<h2>About Amend</h2>
+				<p>
+					With over 20 years of experience, Amend has been driving IT projects from greenfield to banking payment systems. Our expertise lies in transforming businesses through
+					innovative IT solutions.
+				</p>
+			</section>
+
+			<section id="services">
+				<h2>Our Services</h2>
+				<div class="services">
+					<div class="service">
+						<h3>IT Management</h3>
+						<p>Strategic IT planning and implementation to align with your business goals.</p>
+					</div>
+					<div class="service">
+						<h3>Agile Transformation</h3>
+						<p>Guide your organization through the adoption of Agile methodologies.</p>
+					</div>
+					<div class="service">
+						<h3>IT Project Management</h3>
+						<p>Ensure successful delivery of complex IT projects on time and within budget.</p>
+					</div>
+					<div class="service">
+						<h3>Advisory Services</h3>
+						<p>Expert guidance on IT strategy, architecture, and technology selection.</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact">
+				<h2>Contact Us</h2>
+				<p>Ready to transform your IT landscape? Get in touch with Amend today!</p>
+				<p>Email: info@amend.ei</p>
+				<p>Phone: +1 (555) 123-4567</p>
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; 2024 Amend (Amend.ei). All rights reserved.</p>
+		</footer>
+
+		<script>
+			// Simple JavaScript to add a "last updated" date
+			document.addEventListener("DOMContentLoaded", function () {
+				var footer = document.querySelector("footer")
+				var lastUpdated = document.createElement("p")
+				lastUpdated.textContent = "Last updated: " + new Date().toLocaleDateString()
+				footer.appendChild(lastUpdated)
+			})
+		</script>
+	</body>
+</html>
